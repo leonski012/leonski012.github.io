@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="boxstyle.css">
+    <link rel="stylesheet" href="navStyle.css">
+
 </head>
 
 <body>
-    <ul class="nav nav-pills nav-fill">
+    <ul class="nav nav-pills nav-fill primaryNav">
         <li class="nav-item">
             <a href="index.html">Home</a>
         </li>
@@ -49,10 +52,38 @@
 
     </ul>
 
+    <!-- secondary nav (small screen)-->
+    <div class="dropdown show secondaryNav">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Navigation List
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="headings.html">Heading Demo</a>
+            <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+            <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
+            <a class="dropdown-item" href="orderedlist.html">Ordered List Demo</a>
+            <a class="dropdown-item" href="tableDemo1.html">Table Demo 1</a>
+            <a class="dropdown-item" href="tableDemo2.html">Table Demo 2 - Pets</a>
+            <a class="dropdown-item" href="cssdemo.html">CSS Demo</a>
+            <a class="dropdown-item" href="travel.html">Dream Vacation Page</a>
+            <a class="dropdown-item" href="bootstrapdemo.html">Bootstrap Demo</a>
+            <a class="dropdown-item active" href="mediaQueryDemo.html">Media Query Demo</a>
+        </div>
+    </div>
+
     <center>
         <h2>Media Query Demo</h2>
         <h3>Change the width of the page to see changes in the page</h3>
     </center>
+
+    <div class="box greenbox"></div>
+    <div class="box redbox"></div>
+    <div class="box bluebox"></div>
+    <div class="box violetbox"></div>
+    <div class="box yellowbox"></div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
